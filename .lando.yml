@@ -1,0 +1,10 @@
+name: marvel-comics-shop
+recipe: laravel
+config:
+  php: '8.3'
+  database: mariadb
+  composer_version: 2
+  via: apache
+  webroot: public
+  cache: none
+  xdebug: true
