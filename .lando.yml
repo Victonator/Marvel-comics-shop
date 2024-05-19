@@ -8,3 +8,10 @@ config:
   webroot: public
   cache: none
   xdebug: true
+#services:
+#  appserver:
+#    build_as_root:
+#      - apt-get update -y
+#      - apt-get install libmcrypt-dev -y
+#      - pecl install mcrypt-1.0.7
+#      - docker-php-ext-enable mcrypt
